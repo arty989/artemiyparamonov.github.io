@@ -1,0 +1,94 @@
+.full-title-content {
+  font-size: 1rem;
+}
+
+.background-for-photo {
+  background-color: rgb(255, 250, 242);
+  height: 24em;
+}
+
+.title {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 8rem;
+  margin-bottom: 5.6em;
+}
+
+.title>img {
+  width: 26em;
+  height: 26em;
+
+  position: absolute;
+  top: -19.5em;
+  left: 49%;
+  transform: translateX(-50%);
+
+  border-radius: 50%;
+  box-shadow: 0 0 15px black;
+}
+
+.title>h1 {
+  margin-bottom: 0.7em;
+  font-size: 2em;
+
+  display: flex;
+  gap: 0.3em;
+}
+
+.title .personal-qualities {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  display: flex;
+  gap: 0.3em;
+}
+
+.title>a {
+  text-decoration: none;
+  background-color: rgb(255, 250, 242);
+  font-size: 1.3em;
+  padding: 0.35em;
+
+  border: 0.11em solid;
+  border-radius: 25em;
+}
+
+.title>a:hover {
+  color: white;
+  background-color: rgb(108, 145, 165);
+}
+
+.title .name,
+.title .surname {
+  display: block;
+}
+
+@media (max-width: 710px) {
+  .full-title-content {
+    font-size: 0.7rem;
+  }
+
+  .title>h1 {
+    font-size: 2.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .title>a {
+    font-size: 1.6em;
+  }
+
+  .personal-qualities {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .personal-qualities>p {
+    font-size: 1.2em;
+  }
+}

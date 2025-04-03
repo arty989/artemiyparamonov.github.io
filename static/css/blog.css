@@ -1,0 +1,151 @@
+.blog {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.blog .description {
+  width: 30rem;
+  
+  border-style: solid;
+  border-radius: 25px;
+  padding: 2rem;
+  box-shadow: 0 0 15px rgb(108, 145, 165);
+
+}
+
+.blog .description>h2 {
+  margin-bottom: 1.3rem;
+  font-size: 1.6rem;
+}
+
+.blog .description>p {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog .description>a {
+  text-decoration: none;
+  background-color: rgb(255, 250, 242);
+
+  font-size: 1.2rem;
+  padding: 0.4rem;
+
+  border: 0.11rem solid;
+  border-radius: 25px;
+
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.blog .description>a:hover {
+  color: white;
+  background-color: rgb(108, 145, 165);
+}
+
+.posts>h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.last-posts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.last-posts>div {
+  width: 18rem;
+
+  border-radius: 25px;
+  border-style: solid;
+  padding: 1rem;
+  font-size: 1.25rem;
+  box-shadow: 0 0 15px rgb(108, 145, 165);
+}
+
+.last-posts img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+
+.last-posts a {
+  display: inline-block;
+  margin-top: 1rem;
+
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: rgb(255, 250, 242);
+
+  border: 0.11em solid;
+  border-radius: 25px;
+
+  padding: 0.4rem;
+}
+
+.last-posts a:hover {
+  color: white;
+  background-color: rgb(108, 145, 165);
+}
+
+.last-posts .date {
+  font-size: 1rem;
+  color: rgba(29, 33, 36, 0.596);
+}
+
+@media (max-width: 1350px) {
+  .last-posts {
+  flex-direction: column;
+  }
+
+  .blog .description {
+    width: 22rem;
+  }
+
+  .last-posts>div {
+    display: flex;
+    gap: 1rem;
+    width: 25rem;
+  }
+
+  .last-posts>div img {
+    width: 50%;
+    margin-bottom: 0rem;
+  }
+
+  .last-posts .post-content {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .blog .description {
+    width: 15rem;
+  }
+
+  .last-posts>div {
+    display: block;
+    width: 15rem;
+  }
+
+  .last-posts>div img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 710px) {
+  .blog {
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .posts>h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
