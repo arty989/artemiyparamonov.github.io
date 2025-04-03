@@ -43,8 +43,9 @@ textarea {
   font-size: 1.6rem;
 }
 
-.feedback-content h3 {
+.feedback-content .contacts-title {
   font-size: 1.35rem;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
