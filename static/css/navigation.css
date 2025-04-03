@@ -1,10 +1,12 @@
 .nav-bar {
   display: flex;
   justify-content: flex-end;
+  height: 3rem;
   padding-right: 4rem;
   padding-top: 2rem;
   background-color: rgb(255, 250, 242);
   gap: 1rem;
+  position: fixed;
   position: relative;
 }
 

@@ -115,9 +115,11 @@ input:focus, textarea:focus {
 
   font-size: 1.1rem;
   text-decoration: none;
+  color: rgb(29, 33, 36);
   background-color: rgb(255, 250, 242);
 
   border: 0.11rem solid;
+  border-color: black;
   border-radius: 25rem;
 
   padding: 0.3rem;
