@@ -4,7 +4,7 @@
 
 .background-for-photo {
   background-color: rgb(255, 250, 242);
-  height: 24em;
+  height: 22em;
 }
 
 .title {
@@ -23,7 +23,7 @@
   height: 26em;
 
   position: absolute;
-  top: -19.5em;
+  top: -21em;
   left: 49%;
   transform: translateX(-50%);
 
@@ -32,7 +32,7 @@
 }
 
 .title>h1 {
-  margin-bottom: 0.7em;
+  margin-bottom: 0.5em;
   font-size: 2em;
 
   display: flex;
@@ -41,7 +41,7 @@
 
 .title .personal-qualities {
   font-size: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.7em;
   display: flex;
   gap: 0.3em;
 }
